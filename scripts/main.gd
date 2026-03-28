@@ -4,7 +4,6 @@ extends Node2D
 @onready var player = $World/Player
 var _exit_transition_started :=false
 func _process(_delta: float) -> void:
-	var anim = player.get_node("AnimatedSprite2D").animation
 	state_label.text = ''
 
 
