@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7tr7yagoc7x3"
-path="res://.godot/imported/character_jump.png-5cd8ddf2ff3b219edc2f344d44a761e4.ctex"
+uid="uid://03rbxt4q14bq"
+path="res://.godot/imported/character_air-spin.png-f4c7b63c0fa1fab2d483eae689dc12b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/player/character_jump.png"
-dest_files=["res://.godot/imported/character_jump.png-5cd8ddf2ff3b219edc2f344d44a761e4.ctex"]
+source_file="res://character_air-spin.png"
+dest_files=["res://.godot/imported/character_air-spin.png-f4c7b63c0fa1fab2d483eae689dc12b2.ctex"]
 
 [params]
 

@@ -1,11 +1,13 @@
-[gd_scene format=4 uid="uid://6idc3ou6nk12"]
+[gd_scene format=4 uid="uid://c6wjnw478vlak"]
 
-[ext_resource type="Script" uid="uid://g6o2x067m2bu" path="res://scripts/main.gd" id="1_bydxt"]
-[ext_resource type="Texture2D" uid="uid://ddh6jhw5dm35i" path="res://tile_sets/platformerPack_industrial_tilesheet.png" id="2_wo2oy"]
-[ext_resource type="PackedScene" uid="uid://bmcv6t1hcwm5" path="res://scenes/player.tscn" id="3_h1kp1"]
+[ext_resource type="Script" uid="uid://g6o2x067m2bu" path="res://scripts/main.gd" id="1_e224s"]
+[ext_resource type="PackedScene" uid="uid://bmcv6t1hcwm5" path="res://scenes/player.tscn" id="2_w2wna"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h0gwf"]
+load_path = "res://.godot/imported/platformerPack_industrial_tilesheet.png-db6cdd6e89d9f1e0779628affb9efe3d.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyhfs"]
-texture = ExtResource("2_wo2oy")
+texture = SubResource("CompressedTexture2D_h0gwf")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -2612,7 +2614,7 @@ sources/0 = SubResource("TileSetAtlasSource_jyhfs")
 size = Vector2(13, 135)
 
 [node name="Levle1" type="Node2D" unique_id=252606307]
-script = ExtResource("1_bydxt")
+script = ExtResource("1_e224s")
 
 [node name="World" type="Node2D" parent="." unique_id=1609295340]
 
@@ -2622,10 +2624,10 @@ tile_map_data = PackedByteArray("AAAFAB0AAAAUAAUAAAAFAB4AAAAUAAYAAAAFAB8AAAAUAAc
 tile_set = SubResource("TileSet_tbgi4")
 physics_quadrant_size = 14
 
-[node name="Player" parent="World" unique_id=1301311322 instance=ExtResource("3_h1kp1")]
+[node name="Player" parent="World" unique_id=1301311322 instance=ExtResource("2_w2wna")]
 position = Vector2(254, 318)
 
-[node name="Camera2D2" type="Camera2D" parent="World/Player" unique_id=2052786566]
+[node name="Camera2D" type="Camera2D" parent="World/Player" unique_id=2052786566]
 
 [node name="Exit" type="Area2D" parent="World" unique_id=1516329582]
 position = Vector2(12186, 115)
