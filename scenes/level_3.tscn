@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://bqqip8boarpxq"]
 
 [ext_resource type="Script" uid="uid://g6o2x067m2bu" path="res://scripts/main.gd" id="1_uwxec"]
-[ext_resource type="PackedScene" uid="uid://cwvta0y7wal8g" path="res://scenes/scenes_1/player.tscn" id="2_1pn4d"]
+[ext_resource type="PackedScene" uid="uid://bmcv6t1hcwm5" path="res://scenes/player.tscn" id="2_uwxec"]
 [ext_resource type="Texture2D" uid="uid://ddh6jhw5dm35i" path="res://tile_sets/platformerPack_industrial_tilesheet.png" id="3_ah8om"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyhfs"]
@@ -2651,8 +2651,8 @@ metadata/_edit_horizontal_guides_ = [765.0]
 
 [node name="World" type="Node2D" parent="." unique_id=1609295340]
 
-[node name="Player" parent="World" unique_id=1301311322 instance=ExtResource("2_1pn4d")]
-position = Vector2(-32, 346)
+[node name="Player" parent="World" unique_id=2032180907 instance=ExtResource("2_uwxec")]
+position = Vector2(-22, 334)
 
 [node name="HUD" type="CanvasLayer" parent="." unique_id=1025261155]
 

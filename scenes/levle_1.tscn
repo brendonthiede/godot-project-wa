@@ -2622,11 +2622,6 @@ tile_map_data = PackedByteArray("AAAFAB0AAAAUAAUAAAAFAB4AAAAUAAYAAAAFAB8AAAAUAAc
 tile_set = SubResource("TileSet_tbgi4")
 physics_quadrant_size = 14
 
-[node name="Player" parent="World" unique_id=1301311322 instance=ExtResource("3_h1kp1")]
-position = Vector2(254, 318)
-
-[node name="Camera2D2" type="Camera2D" parent="World/Player" unique_id=2052786566]
-
 [node name="Exit" type="Area2D" parent="World" unique_id=1516329582]
 position = Vector2(12186, 115)
 metadata/_edit_group_ = true
@@ -2634,6 +2629,9 @@ metadata/_edit_group_ = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="World/Exit" unique_id=680974468]
 position = Vector2(32.5, -36.5)
 shape = SubResource("RectangleShape2D_1kfbk")
+
+[node name="Player" parent="World" unique_id=2032180907 instance=ExtResource("3_h1kp1")]
+position = Vector2(104, 339)
 
 [node name="HUD" type="CanvasLayer" parent="." unique_id=1025261155]
 
