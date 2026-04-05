@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://5f4cutgtj2h4" path="res://sprites/player/character_roll.png" id="5_roll"]
 [ext_resource type="Texture2D" uid="uid://cnlp0meh4407u" path="res://sprites/player/character_air-spin.png" id="7_air_spin"]
 [ext_resource type="Texture2D" uid="uid://b1rxvg5bc67sv" path="res://sprites/player/character_land.png" id="8_land"]
-[ext_resource type="Texture2D" uid="uid://dh2eu7pimmwyn" path="res://scenes/character_crouch-idle.png" id="9_crouch_idle"]
 [ext_resource type="Texture2D" uid="uid://dkmy7jobi52vx" path="res://sprites/player/character_crouch-walk.png" id="10_crouch_walk"]
 [ext_resource type="Texture2D" uid="uid://ctdvy5upj28o6" path="res://sprites/player/character_ledge-climb.png" id="11_ledge_climb"]
 [ext_resource type="Texture2D" uid="uid://y8o13p7s20eb" path="res://sprites/player/character_ledge-grab.png" id="12_ledge_grab"]
@@ -46,20 +45,23 @@ region = Rect2(288, 0, 48, 48)
 atlas = ExtResource("7_air_spin")
 region = Rect2(336, 0, 48, 48)
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3v2ag"]
+load_path = "res://.godot/imported/character_crouch-idle.png-fb608edfde64d1f41ecb2d7dce3c543f.ctex"
+
 [sub_resource type="AtlasTexture" id="Atlas_crouch_idle_0"]
-atlas = ExtResource("9_crouch_idle")
+atlas = SubResource("CompressedTexture2D_3v2ag")
 region = Rect2(0, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="Atlas_crouch_idle_1"]
-atlas = ExtResource("9_crouch_idle")
+atlas = SubResource("CompressedTexture2D_3v2ag")
 region = Rect2(48, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="Atlas_crouch_idle_2"]
-atlas = ExtResource("9_crouch_idle")
+atlas = SubResource("CompressedTexture2D_3v2ag")
 region = Rect2(96, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="Atlas_crouch_idle_3"]
-atlas = ExtResource("9_crouch_idle")
+atlas = SubResource("CompressedTexture2D_3v2ag")
 region = Rect2(144, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="Atlas_crouch_walk_0"]
