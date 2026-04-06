@@ -12,8 +12,8 @@ func _on_exit_body_entered(body: Node2D) -> void:
 		return
 	_exit_transition_started = true
 	# Scene changes remove physics objects, so defer until after this physics callback.
-	call_deferred("_go_to_level2")
+	call_deferred("_go_to_next_level")
 
 
-func _go_to_level2() -> void:
-	get_tree().change_scene_to_file("res://scenes/level_2.tscn")
+func _go_to_next_level() -> void:
+	get_tree().change_scene_to_file("res://scenes/level_3.tscn")
