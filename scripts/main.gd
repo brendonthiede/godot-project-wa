@@ -16,4 +16,4 @@ func _on_exit_body_entered(body: Node2D) -> void:
 
 
 func _go_to_next_level() -> void:
-	get_tree().change_scene_to_file("res://scenes/level_3.tscn")
+	get_tree().change_scene_to_file("res://scenes/level_3.scn")
