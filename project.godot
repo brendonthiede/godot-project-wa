@@ -16,7 +16,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 config/name="2D Comando (star wars)"
 config/description="Deymoon character template - all 13 animations wired up. Replace sprites with your Piskel exports!"
-run/main_scene="res://scenes/levle_1.scn"
+run/main_scene="res://scenes/level_1.scn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 
 [display]
